@@ -6,7 +6,7 @@ import UserStateExample from './hooks/UseState'
 import UseEffectExample from './hooks/UseEffect'
 import UseContextExample from './hooks/UseContext'
 import UseReducerExample from './hooks/UseReducer'
-
+import ReducerParent from './useeducer/UseReducer2'
 
 const Index = () => (
   <div className={styles.container}>
@@ -20,6 +20,8 @@ const Index = () => (
       <UseContextExample />
       <h3>hooks-useReducer-1</h3>
       <UseReducerExample />
+      <h3>hooks-userreducer-2</h3>
+      <ReducerParent />
     </div>
 )
  
