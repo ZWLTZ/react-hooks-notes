@@ -9,6 +9,7 @@ import UseReducerExample from './hooks/UseReducer'
 import ReducerParent from './usereducer/UseReducer2'
 import UseMemoExample from './usememo/UseMemo'
 import UseRefExample from './useref/UseRefDom'
+import CustomizeUseSizeExample from './CustomizeHooks/ListenerSize'
 
 const Index = () => (
   <div className={styles.container}>
@@ -28,6 +29,8 @@ const Index = () => (
       <UseMemoExample />
       <h3>hooks-useRef</h3>
       <UseRefExample />
+      <h3>customize-hooks</h3>
+      <CustomizeUseSizeExample />
     </div>
 )
  
