@@ -9,7 +9,7 @@ import UseReducerExample from './hooks/UseReducer'
 import ReducerParent from './usereducer/UseReducer2'
 import UseMemoExample from './usememo/UseMemo'
 import UseRefExample from './useref/UseRefDom'
-import CustomizeUseSizeExample from './CustomizeHooks/ListenerSize'
+import CustomizeUseSizeExample from './customizeHooks/ListenerSize'
 
 const Index = () => (
   <div className={styles.container}>
