@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 
 import styles from '../Example.module.scss'
 
@@ -10,6 +10,10 @@ const UseRefExample = () => {
     inputElem.current.value = ''
     // text = setText('')
   }
+  // 保存text
+  useEffect(() => {
+    console.log(text)
+  })
 
   return (
     <div className={styles.main}>
