@@ -10,7 +10,6 @@ const UserStateExample = () => {
     <div className={styles.main}>
       <p>You clicked {count} times.</p>
       <button onClick={() => { setCount(count + 1) }}>点击</button>
-      {/* <div>名字：{username}</div> */}
     </div>
   )
 }
