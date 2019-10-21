@@ -4,6 +4,7 @@ import styles from './Example.module.scss'
 import ExampleClass from './ExampleClass'
 import UserStateExample from './hooks/UseState'
 import UseEffectExample from './hooks/UseEffect'
+import UseContextExample from './hooks/UseContext'
 
 
 const Index = () => (
@@ -14,6 +15,8 @@ const Index = () => (
       <UserStateExample />
       <h3>hooks-useEffect</h3>
       <UseEffectExample />
+      <h3>hooks-useContext</h3>
+      <UseContextExample />
     </div>
 )
  
