@@ -27,7 +27,7 @@ const UseEffectExample = () => {
     <div className={styles.main}>
       <p>You clicked {count} times.</p>
       <button onClick={() => { setCount(count + 1) }}>点击</button>
-      <button onClick={() => { setShow(!show) }}>点击</button>
+      <button onClick={() => { setShow(!show) }}>{show ? '隐藏' : '显示'}</button>
       {
         show ? <TestUnMounted /> : null
       }
