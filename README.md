@@ -6,3 +6,4 @@
 + 4. useReducer：类式redux一样管理state
 + 5. useMemo：减少不必要的渲染，提高性能。类式class component内shouldComponentUpdate
 + 6. useRef： 获取jsx中Dom元素
++ 7. 如何自定义一个react-hooks函数
