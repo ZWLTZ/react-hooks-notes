@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+button{
+  margin-left: 10px;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+}
+button:hover{
+  box-shadow: 6px 0 5px -5px rgba(180,160,120,.8), -6px 0 5px -5px rgba(180,160,120,.8);
+}
