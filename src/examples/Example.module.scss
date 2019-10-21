@@ -2,7 +2,7 @@
   background: rgba(0,0,0,.1);
   margin-bottom: 15px;
   padding: 15px;
-  p,button{
+  p,button,input{
     display: inline-block;
   }
   p{
@@ -12,5 +12,15 @@
     background: #1c90f3;
     width: 15%;
     height: 36px;
+  }
+  input{
+    width: 60%;
+    height: 36px;
+    outline: none;
+    border: 1px solid #ada0a0;
+    padding: 4px 10px;
+    &:focus{
+      border-color: #1c90f3;
+    }
   }
 }

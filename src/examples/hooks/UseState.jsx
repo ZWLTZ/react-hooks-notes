@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import styles from '../Example.module.scss'
 
 // 1. hooks-useState
-const UserStateExample = () => {
+const UseStateExample = () => {
   //  数组结构赋值。useState不能用于条件语句中！！！0 是count的初始值
   const [count, setCount] = useState(0)
   return (
@@ -14,4 +14,4 @@ const UserStateExample = () => {
   )
 }
 
-export default UserStateExample
+export default UseStateExample

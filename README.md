@@ -5,3 +5,4 @@
 + 3. useContext：可以让父子组件传值更简单
 + 4. useReducer：类式redux一样管理state
 + 5. useMemo：减少不必要的渲染，提高性能。类式class component内shouldComponentUpdate
++ 6. useRef： 获取jsx中Dom元素
