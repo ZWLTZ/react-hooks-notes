@@ -5,6 +5,7 @@ import ExampleClass from './ExampleClass'
 import UserStateExample from './hooks/UseState'
 import UseEffectExample from './hooks/UseEffect'
 import UseContextExample from './hooks/UseContext'
+import UseReducerExample from './hooks/UseReducer'
 
 
 const Index = () => (
@@ -17,6 +18,8 @@ const Index = () => (
       <UseEffectExample />
       <h3>hooks-useContext</h3>
       <UseContextExample />
+      <h3>hooks-useReducer-1</h3>
+      <UseReducerExample />
     </div>
 )
  
